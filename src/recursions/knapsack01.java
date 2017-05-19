@@ -52,7 +52,6 @@ public class knapsack01 {
             return knapsac(m,items,n-1);
 
         return Math.max(
-
                 items[n-1].getProfit() + knapsac(m-items[n-1].getWt(),items,n-1),
                 knapsac(m,items,n-1)
 
