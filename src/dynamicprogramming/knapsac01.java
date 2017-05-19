@@ -53,7 +53,14 @@ public class knapsac01 {
             }
         }
 
+
+
         System.out.println(K[n][m]);
+
+        for (int[] x:K
+             ) {
+            System.out.println(Arrays.toString(x));
+        }
     }
 
 
