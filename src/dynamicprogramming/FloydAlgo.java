@@ -5,6 +5,7 @@ import java.util.Arrays;
 /**
  * Created by ArupPc on 19-05-2017.
  */
+
 /*Assume the sides of a triangle in this algorithm
 *
 * let a,b,c are 3 vertices of a triangle
@@ -21,10 +22,10 @@ public class FloydAlgo {
         /*Put your own adj matrix below*/
         int[][] M = {
 
-                {0,15,999,50},
-                {40,999,15,999},
-                {30,999,90,150},
-                {125,999,65,60}
+                {0,5,999,999},
+                {50,0,15,5},
+                {30,999,0,15},
+                {15,999,5,0}
 
         };
 
