@@ -90,6 +90,9 @@ public class FactionalKnapsac {
                 break;
             }
         }
+        print(items);
+        System.out.println();
+        System.out.println();
         System.out.println(Arrays.toString(x));
         System.out.println(finalvalue);
     }
